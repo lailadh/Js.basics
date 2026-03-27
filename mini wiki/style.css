@@ -1,4 +1,4 @@
-/* Global */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,8 +9,6 @@ body {
     font-family: Verdana, sans-serif;
     line-height: 1.6;
 }
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,8 +41,6 @@ body {
 .menu a:hover {
     color: #57aaaa;
 }
-
-/* ===== Page 1: Hero Section ===== */
 .hero {
     position: relative;
     display: flex;
@@ -57,8 +53,6 @@ body {
     overflow: hidden;
     color: white;
 }
-
-/* Background Image */
 .hero-background {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -71,8 +65,6 @@ body {
     object-fit: cover;
     filter: brightness(0.6);
 }
-
-/* Hero Content */
 .hero-content {
     position: relative;
     display: flex;
@@ -101,8 +93,6 @@ body {
     max-width: 400px;
     border-radius: 10px;
 }
-
-/* Button */
 .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -117,24 +107,18 @@ body {
 .btn:hover {
     background-color: #14d2cf;
 }
-
-/* Intro Section  */
 .intro {
     text-align: center;
     padding: 50px 20px;
     max-width: 800px;
     margin: 0 auto;
 }
-
-/* Footer */
 .footer {
     background-color: #eb1a8d;
     color: white;
     text-align: center;
     padding: 15px;
 }
-
-/*  Page 2  */
 .articles-section {
     position: relative;
     max-width: 1200px;
@@ -167,8 +151,6 @@ body {
 .articles-content h2, .articles-content p {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
-
-/* Articles Grid */
 .articles {
     display: flex;
     flex-wrap: wrap;
@@ -176,11 +158,9 @@ body {
     gap: 30px;
     margin-top: 30px;
 }
-
-/* Card */
 .article-card {
     width: 300px;
-    background: rgba(255,255,255,0.9);
+    background: #D6abab;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -206,7 +186,6 @@ body {
     margin: 0 15px 10px 15px;
     font-size: 15px;
 }
-
 .article-card a {
     display: inline-block;
     margin: 10px 15px 15px;
@@ -218,15 +197,13 @@ body {
 .article-card a:hover {
     color: #14d2cf;
 }
-
-/* Page 3 Article*/
 .article-layout {
     display: flex;
     gap: 30px;
     max-width: 1100px;
     margin: 40px auto;
     padding: 20px;
-    flex-wrap: wrap; /* responsive */
+    flex-wrap: wrap;
 }
 
 .article-image {
@@ -281,8 +258,6 @@ body {
 .article-content .btn:hover {
     background-color: #14d2cf;
 }
-
-/* Responsive */
 @media (max-width: 900px) {
     .article-layout {
         flex-direction: column;
@@ -291,12 +266,10 @@ body {
         max-height: 400px;
     }
 }
-
-/*Titres pastel globaux  */
 h1 {
-    color: #ff7fbf; /* rose pastel clair */
+    color: #ff7fbf; 
 }
 
 h2 {
-    color: #7fffd4; /* cyan pastel clair */
+    color: #7fffd4
 }
